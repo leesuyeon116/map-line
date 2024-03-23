@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="KakaoUtilTest" project="map-line" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="kr.co.icia.mapline.util.KakaoUtilTest" time="1.778" displayname="KakaoUtilTest" uniqueid="[engine:junit-jupiter]/[class:kr.co.icia.mapline.util.KakaoUtilTest]">
+    <testcase name="getPointByAddressTest" classname="kr.co.icia.mapline.util.KakaoUtilTest" time="1.778" displayname="getPointByAddressTest()" uniqueid="[engine:junit-jupiter]/[class:kr.co.icia.mapline.util.KakaoUtilTest]/[method:getPointByAddressTest()]">
+      <error>java.lang.NullPointerException: Cannot invoke "java.util.List.isEmpty()" because "documents" is null&#13;
+	at kr.co.icia.mapline.util.KakaoApiUtil.getPointByAddress(KakaoApiUtil.java:31)&#13;
+	at kr.co.icia.mapline.util.KakaoUtilTest.getPointByAddressTest(KakaoUtilTest.java:13)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+&#13;
+</error>
+    </testcase>
+  </testsuite>
+</testrun>

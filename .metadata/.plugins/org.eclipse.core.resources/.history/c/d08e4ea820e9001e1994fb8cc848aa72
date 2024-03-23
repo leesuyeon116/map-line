@@ -1,0 +1,14 @@
+<html>
+
+<body>
+	좌표로 변환 할 주소를 입력 하세요.
+	<form>
+		<input type="text" name="address" />
+		<button>변환</button>
+		<div th:if="${point != null}">
+			x:<span th:text="${point.x}"></span>, y:<span th:text="${point.y}"></span>
+		</div>
+	</form>
+</body>
+
+</html>
